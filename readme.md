@@ -4,9 +4,8 @@
 ### 开箱即用:
 - git clone 下来以后 项目根目录依次执行以下指令即可:
     - 1: composer install
-    - 2: php artisan make:auth
-    - 3: php artisan migrate
-    - 4: php artisan larecipe:install
+    - 2: php artisan migrate
+    - 3: php artisan larecipe:install
 ------
 ### 邮箱认证:
 - 记得ENV里配置好你的 邮箱发送账号相关配置 MAIL_* 我们的文档系统是要对邮箱进行验证的!
